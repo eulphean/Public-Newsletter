@@ -8,130 +8,129 @@
 <!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]-->
 
 <style>
+@font-face {
+	font-family: 'Duhai';
+	src: url('https://amaykataria.com/Public-Newsletter/common/Fonts/Duhai-Regular.woff2') format('woff2'),
+		url('https://amaykataria.com/Public-Newsletter/common/Fonts/Duhai-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
 
-		@font-face {
-		    font-family: 'Duhai';
-		    src: url('https://amaykataria.com/Public-Newsletter/common/Fonts/Duhai-Regular.woff2') format('woff2'),
-		        url('https://amaykataria.com/Public-Newsletter/common/Fonts/Duhai-Regular.woff') format('woff');
-		    font-weight: normal;
-		    font-style: normal;
-		    font-display: swap;
-		}
+* {
+	box-sizing: border-box;
+}
 
-		* {
-			box-sizing: border-box;
-		}
+body {
+	margin: 0;
+	padding: 0;
+}
 
-		body {
-			margin: 0;
-			padding: 0;
-		}
+a[x-apple-data-detectors] {
+	color: inherit !important;
+	text-decoration: inherit !important;
+}
 
-		a[x-apple-data-detectors] {
-			color: inherit !important;
-			text-decoration: inherit !important;
-		}
+#MessageViewBody a {
+	color: inherit;
+	text-decoration: none;
+}
 
-		#MessageViewBody a {
-			color: inherit;
-			text-decoration: none;
-		}
+p {
+	line-height: inherit
+}
 
-		p {
-			line-height: inherit
-		}
+@media (max-width:670px) {
+	.icons-inner {
+		text-align: center;
+	}
 
-		@media (max-width:670px) {
-			.icons-inner {
-				text-align: center;
-			}
+	.icons-inner td {
+		margin: 0 auto;
+	}
 
-			.icons-inner td {
-				margin: 0 auto;
-			}
+	.row-content {
+		width: 100% !important;
+	}
 
-			.row-content {
-				width: 100% !important;
-			}
+	.image_block img.big {
+		width: auto !important;
+	}
 
-			.image_block img.big {
-				width: auto !important;
-			}
+	.column .border {
+		display: none;
+	}
 
-			.column .border {
-				display: none;
-			}
+	.stack .column {
+		width: 100%;
+		display: block;
+	}
 
-			.stack .column {
-				width: 100%;
-				display: block;
-			}
+	.reverse {
+		display: table;
+		width: 100%;
+	}
 
-			.reverse {
-				display: table;
-				width: 100%;
-			}
+	.reverse .column.last {
+		display: table-header-group !important;
+	}
 
-			.reverse .column.last {
-				display: table-header-group !important;
-			}
+	.row-3 td.column.last>table {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
 
-			.row-3 td.column.last>table {
-				padding-left: 0;
-				padding-right: 0;
-			}
-		}
+blockquote {
+	font-family: Duhai, serif;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 100;
+	width: 100%;
+	margin: 0.25em 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1em;
+	padding-bottom: 0.45em;
+	line-height: 1.45;
+	position: relative;
+	color: #000000;
+}
 
-		blockquote {
-		    font-family: Duhai, serif;
-		    font-size: 18px;
-		    font-style: italic;
-		    font-weight: 100;
-		    width: 100%;
-		    margin: 0.25em 0;
-		    padding-left: 10px;
-		    padding-right: 10px;
-		    padding-top: 1em;
-		    padding-bottom: 0.45em;
-		    line-height: 1.45;
-		    position: relative;
-		    color: #000000;
-		}
+/* blockquote:before {
+	display: block;
+	padding-left: 0px;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: 15px;
+	top: -18px;
+	color: #000000;
+}
 
-		/* blockquote:before {
-		    display: block;
-		    padding-left: 0px;
-		    content: "\201C";
-		    font-size: 80px;
-		    position: absolute;
-		    left: 15px;
-		    top: -18px;
-		    color: #000000;
-		}
+blockquote:after {
+	display: block;
+	padding-left: 10px;
+	content: "\2019 \2019";
+	font-size: 80px;
+	position: absolute;
+	right: 15px;
+	top: 30px;
+	color: #000000;
+} */
 
-		blockquote:after {
-		    display: block;
-		    padding-left: 10px;
-		    content: "\2019 \2019";
-		    font-size: 80px;
-		    position: absolute;
-		    right: 15px;
-		    top: 30px;
-		    color: #000000;
-		} */
+blockquote cite {
+	color: #999999;
+	font-size: 14px;
+	display: block;
+	margin-top: 5px;
+}
 
-		blockquote cite {
-		    color: #999999;
-		    font-size: 14px;
-		    display: block;
-		    margin-top: 5px;
-		}
+blockquote cite:before {
+	content: "\2014 \2009";
+}
 
-		blockquote cite:before {
-		    content: "\2014 \2009";
-		}
-
-	</style>
+</style>
 </head>
 <body style="background-color: #9EDBFF; margin: 0; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none;">
 <table border="0" cellpadding="0" cellspacing="0" class="nl-container" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #9EDBFF;" width="100%">
@@ -145,21 +144,6 @@
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; color: #ffffff; width: 650px;" width="650">
 <tbody>
 <tr>
-<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 100; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="33.333333333333336%">
-<table border="0" cellpadding="0" cellspacing="0" class="text_block" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
-<tr>
-<td style="padding-top:15px;padding-right:10px;padding-bottom:15px;padding-left:10px;">
-<div style="font-family: sans-serif">
-<div style="font-size: 14px; mso-line-height-alt: 16.8px; color: #000000; line-height: 1.2; font-family: Duhai, Helvetica Neue, Helvetica, sans-serif;">
-<p style="margin: 0; font-size: 18px; text-align: center;"><a href="https://amaykataria.com" rel="noopener" style="text-decoration: underline; color: #000000;" target="_blank">Amay Kataria</a></p>
-</div>
-</div>
-</td>
-</tr>
-</table>
-</td>
-<td class="column column-2" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 100; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="33.333333333333336%">
-</td>
 <td class="column column-3" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 100; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="33.333333333333336%">
 <table border="0" cellpadding="0" cellspacing="0" class="text_block" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
 <tr>
@@ -172,6 +156,7 @@
 </td>
 </tr>
 </table>
+</td>
 </td>
 </tr>
 </tbody>
@@ -243,36 +228,6 @@
 <p style="margin: 0; font-size: 18px; mso-line-height-alt: 16.8px;"> </p>
 <p style="margin: 0; font-size: 18px;"><span style="font-size:18px;">Anyway, this new system allowed me to organize all of my projects, exhibitions, publications, artist talks, and awards in an interconnected way. This has helped me clearly understand how they’ve contributed to my overall creative career.</span></p>
 <p style="margin: 0; font-size: 18px; mso-line-height-alt: 16.8px;"> </p>
-<p style="margin: 0; font-size: 18px;"><span style="font-size:18px;">So if you're a fine artist, check out the <strong>Minimal Artist CV</strong> Notion template. It's an easy-to-use tool that I've created based on everything I learned while designing a new way to manage my Artist CV. I really hope you find it helpful!</span></p>
-<p style="margin: 0; font-size: 18px; mso-line-height-alt: 16.8px;"> </p>
-<p style="margin: 0; font-size: 18px;"><span style="font-size:18px;">Until next time.</span></p>
-<p style="margin: 0; font-size: 18px;"><span style="font-size:18px;">Take care.</span></p>
-<p style="margin: 0; font-size: 18px;"><span style="font-size:18px;">Amay</span></p>
-<table border="0" cellpadding="0" cellspacing="0" class="divider_block" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-<tr>
-<td style="padding-bottom:30px;padding-left:30px;padding-right:30px;padding-top:10px;">
-<div align="center">
-<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="20%">
-<tr>
-</tr>
-</table>
-</div>
-</td>
-</tr>
-</table>
-</div>
-</div>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
 <table border="0" cellpadding="0" cellspacing="0" class="image_block" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
 <tr>
 <td style="width:100%;padding-right:0px;padding-left:0px;">
@@ -280,61 +235,14 @@
 </td>
 </tr>
 </table>
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-4" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-<tbody>
-<tr>
-<td>
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; color: #ffffff; width: 650px;" width="650">
-<tbody>
-<tr>
-<td class="column column-2" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 100; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="83.33333333333333%">
-<table border="0" cellpadding="0" cellspacing="0" class="divider_block" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-<tr>
-<td style="padding-bottom:10px;padding-left:30px;padding-right:30px;padding-top:15px;">
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-5" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-<tbody>
-<tr>
-<td>
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; color: #ffffff; width: 650px;" width="650">
-<tbody>
-<tr>
-<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 100; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="33.333333333333336%">
-<table border="0" cellpadding="0" cellspacing="0" class="empty_block" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-<tr>
-<td style="padding-right:0px;padding-bottom:5px;padding-left:0px;padding-top:5px;">
-<div></div>
-</td>
-</tr>
-</table>
-</td>
-<td class="column column-2" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 100; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="33.333333333333336%">
-<table border="0" cellpadding="0" cellspacing="0" class="button_block" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-<tr>
-<td style="text-align:center;padding-top:5px;padding-bottom:5px;">
-<div align="center">
-<a href="https://amaykataria.gumroad.com/l/artistcv" style="text-decoration:none;display:inline-block;color:#f0e7e8;background-color:#202020;border-radius:4px;width:auto;border-top:1px solid #202020;font-weight:400;border-right:1px solid #202020;border-bottom:1px solid #202020;border-left:1px solid #202020;padding-top:5px;padding-bottom:5px;font-family:'Cormorant Garamond', 'Times New Roman', Times, serif;text-align:center;mso-border-alt:none;word-break:keep-all;" target="_blank"><span style="padding-left:20px;padding-right:20px;font-size:22px;display:inline-block;letter-spacing:normal;"><span style="font-size: 16px; line-height: 2; word-break: break-word; mso-line-height-alt: 32px;"><span data-mce-style="font-size: 22px; line-height: 44px;" style="font-size: 22px; line-height: 44px;"><strong>Learn More</strong></span></span></span></a>
-<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+<p style="margin: 0; font-size: 18px; mso-line-height-alt: 16.8px;"> </p>
+<p style="margin: 0; font-size: 18px;"><span style="font-size:18px;">So if you're a fine artist, check out the <a href="https://amaykataria.gumroad.com/l/artistcv" style="outline:none" tabindex="-1" target="_blank"><strong>Minimal Artist CV</strong></a> Notion template. It's an easy-to-use tool that I've created based on everything I learned while designing a new way to manage my Artist CV. I really hope you find it helpful!</span></p>
+<p style="margin: 0; font-size: 18px; mso-line-height-alt: 16.8px;"> </p>
+<p style="margin: 0; font-size: 18px;"><span style="font-size:18px;">Until next time.</span></p>
+<p style="margin: 0; font-size: 18px;"><span style="font-size:18px;">Take care.</span></p>
+<p style="margin: 0; font-size: 18px;"><span style="font-size:18px;">Amay</span></p>
 </div>
-</td>
-</tr>
-</table>
-</td>
-<td class="column column-3" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 100; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="33.333333333333336%">
-<table border="0" cellpadding="0" cellspacing="0" class="empty_block" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-<tr>
-<td style="padding-right:0px;padding-bottom:10px;padding-left:0px;padding-top:10px;">
-<div></div>
+</div>
 </td>
 </tr>
 </table>
